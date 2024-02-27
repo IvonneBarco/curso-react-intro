@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+.todo-item {
+    border: 1px solid silver;
+    padding: 5px;
+    margin: 2px 0;
+    width: 400px;
+}
+
+.text-todo {
+    text-align: left;
+}
+
+.text-todo-complete {
+    text-align: left;
+    text-decoration-line: line-through;
+}
